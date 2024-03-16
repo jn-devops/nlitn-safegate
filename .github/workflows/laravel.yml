@@ -31,7 +31,7 @@ jobs:
     - name: Install front-end dependencies
       run: |
         npm ci
-        npm run dev
+        npm run build
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
